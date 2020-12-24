@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Html Excel Utility</span>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-3"></div>
+            <form action="/file.xlsx" method="POST" class="col-6 text-center d-grid gap-2">
+                <input name="text" placeholder="URL" class="form-control" id="url" type="url">
+                <button class="btn btn-dark">Convert To Excel</button>
+            </form>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
